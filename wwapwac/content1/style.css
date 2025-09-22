@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+:root {
+    --txt1 : #EBF3C6;
+    --txt2 : #BAC296;
+    --bg : #47371B;
+}
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 2rem;
+}
+
+html {
+    font-size: 11px;
+    font-family: 'Yrsa', serif;
+    letter-spacing: 1.5px;
+}
+
+body {
+    background: var(--bg);
+    color: var(--txt1);
+    padding: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3,
+nav div i {
+    font-size: 2rem;
+}
+
+::-webkit-scrollbar {
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--txt2);
+}
+
+::-webkit-scrollbar-thumb {
+    height: 1.5px;
+    background: #00000033;
+    
+}
+
+.Carousel h1 {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  font-weight: 200;
+}
+
+.Carousel .box {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: scroll;
+  padding-bottom: 3rem;
+  scroll-snap-type: x proximity;
+}
+
+.Carousel .box img {
+  scroll-snap-align: center;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.copyright {
+    position: relative;
+    inset: auto 0 0 0;
+    text-align: center;
+    padding-top: 7rem;
+}
