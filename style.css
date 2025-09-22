@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100dvh;
 }
 
@@ -27,7 +28,8 @@ body {
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
   overflow: hidden;
-  width: 18rem;
+  width: 16.5rem;
+  padding-bottom: 1rem;
 }
 
 .content section {
@@ -45,7 +47,7 @@ body {
 
 .hdng {
   font-weight: 1000;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .profile {
@@ -101,4 +103,11 @@ ul li {
 .handles section a {
   text-decoration: none;
   color: white;
+}
+
+.cpr{
+  position: absolute;
+  bottom: 1rem;
+  font-size: .75rem;
+  opacity: 70%;
 }
