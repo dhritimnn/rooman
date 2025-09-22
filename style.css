@@ -73,6 +73,7 @@ body {
   border-radius: 0 1.25rem 1.25rem 0;
   line-height: 1.8rem;
   font-weight: 1000;
+  text-align: center;
 }
 
 .profile p {
