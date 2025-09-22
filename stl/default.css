@@ -62,19 +62,7 @@ nav div i {
     font-size: 2rem;
 }
 
-::-webkit-scrollbar {
-    height: 3px;
-}
 
-::-webkit-scrollbar-track {
-    background: #E3E5FF;
-}
-
-::-webkit-scrollbar-thumb {
-    height: 1.5px;
-    background: #00000033;
-    
-}
 
 a {
     display: flex;
