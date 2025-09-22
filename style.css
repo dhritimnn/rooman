@@ -1,40 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
-
-
-:root {
-    --txt1 : #EBF3C6;
-    --txt2 : #BAC296;
-    --bg : #47371B;
-}
-* {
-    margin: 0;
-    padding: 0;
-    line-height: 2rem;
-}
-
-html {
-    font-size: 11px;
-    font-family: 'Yrsa', serif;
-    letter-spacing: 1.5px;
-}
-
-body {
-    background: var(--bg);
-    color: var(--txt1);
-    padding: 3rem;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav h3,
-nav div i {
-    font-size: 2rem;
-}
+@import url("stl/default.css");
+@import url("stl/root.css");
 
 header {
     display: flex;
@@ -77,20 +42,6 @@ header>p {
     color: var(--txt2);
 }
 
-::-webkit-scrollbar {
-    height: 3px;
-}
-
-::-webkit-scrollbar-track {
-    background: #E3E5FF;
-}
-
-::-webkit-scrollbar-thumb {
-    height: 1.5px;
-    background: #00000033;
-    
-}
-
 .handles ul {
     display: flex;
     flex-direction: column;
@@ -98,24 +49,9 @@ header>p {
     list-style: none;
     padding-left: 2rem;
 }
- a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    text-decoration: none;
-    align-items: center;
-    gap: .75rem;
-}
 .handles p{margin: 0;padding: 0;}
 a * {
     font-size: 1.5rem;
     color: var(--txt2);
 }
 
-.copyright {
-    position: relative;
-    inset: auto 0 0 0;
-    text-align: center;
-    padding-top: 7rem;
-}
