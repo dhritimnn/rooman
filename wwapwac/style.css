@@ -1,5 +1,5 @@
-@import url("../stl/default.css");
-@import url("../stl/root.css");
+@import url("../roots/default.css");
+@import url("../roots/root.css");
 
 .sec>h1 {
     font-size: 2.4rem;
